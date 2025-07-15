@@ -110,9 +110,9 @@ const [moveDown, setMoveDown] = useState(false);
     animate={{ x: 0, opacity: 1 }}
     transition={{ duration: 0.8, delay: 1 }}
     className="mt-7 text-[22px]"
-    style={{ fontFamily: "AvantGardeBookOblique" }}
+    style={{ fontFamily: "AvantGardeBookOblique",marginRight:"2px",}}
   >
-    chiflame <a href="https://www.instagram.com/michelleagot/"><span style={{ fontFamily: "AvantGardeDemi" }}>@michelleagot</span></a>
+    chiflame <a style={{marginLeft: "6px"}} href="https://www.instagram.com/michelleagot/"><span style={{fontSize:"18px", fontFamily: "AvantGardeDemi", backgroundColor: "black", padding:"12px", borderRadius:"25px", color: "white" ,boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)"}}>@michelleagot</span></a>
   </motion.p>
 </motion.div>
 
