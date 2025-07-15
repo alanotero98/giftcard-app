@@ -1,6 +1,6 @@
 /* styles.css o dentro de @layer utilities */
 .bg-custom {
-  background-image: url('../public/background.jpeg');
+  background-image: url('../public/background.jpg');
   background-size: cover;
   background-position: center;
 }

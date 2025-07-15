@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-
 export default function GiftCard() {
 const [moveDown, setMoveDown] = useState(false);
   const [showText, setShowText] = useState(false);
